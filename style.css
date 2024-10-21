@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg, 17%, 70%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /*background-color: red;*/
+}
+
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(51, 248, 186);
+    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(343, 29%, 75%, 0.496);
+}
+
+#part3{
+    height: 100%;
+    width: 6%;
+    /*background-color: rgb(68, 29, 196);*/
+}
+
+#text-div{
+    /*height: 300px;*/
+    position: absolute;
+    width: 400px;
+    /*background-color: red;*/
+    left: 5%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#text-div>h1{
+    font-size: 85px;
+    font-family: monument;
+    font-weight: 800;
+    letter-spacing: 7%;
+    line-height: 78px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#smail-img-div{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -60%;
+    top: -7%;
+    /*width: 100%;*/
+    /*background-color: red;*/
+}
+
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 15px;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+
+}
+
